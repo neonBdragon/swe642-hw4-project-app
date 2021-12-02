@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="ISO-8859-1">
+  <title>Student Chosen</title>
+</head>
+<body *ngFor="let student of results">
+<h1>Student List</h1>
+
+<h4>
+  Student ID:
+  {{student.studentCode}}
+</h4>
+
+<h4>
+  Name:
+  {{student.name}}
+</h4>
+
+<h4>
+  Address:
+  {{student.address}}
+</h4>
+
+<h4>
+  City:
+  {{student.city}}
+</h4>
+
+<h4>
+  State:
+  {{student.state}}
+</h4>
+
+<h4>
+  ZipCode:
+  {{student.zipcode}}
+</h4>
+
+<h4>
+  Telephone:
+  {{student.telephone}}
+</h4>
+
+<h4>
+  Email:
+  {{student.email}}
+</h4>
+
+<h4>
+  URL:
+  {{student.url}}
+</h4>
+
+<h4>
+  Date of Survey:
+  {{student.dos}}
+</h4>
+
+</body>
+</html>

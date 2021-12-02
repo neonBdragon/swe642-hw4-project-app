@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="ISO-8859-1">
+  <title>Simple Acknowledgement</title>
+</head>
+<body>
+
+    <h1>Thank you for completing the survey!</h1>
+    <p>
+      Based on the survey data you submitted, you did not win our secret raffle...<br>
+      Your mean score was: <strong>{{mean}}</strong> and standard deviation score was: <strong>{{stddev}}</strong>
+    </p>
+
+    <br>
+
+    <h3>Student ID List</h3>
+
+    <ul *ngFor="let student of students">
+      <li><u><a [routerLink]="" (click)="searchStudent(student.studentCode)">{{student.studentCode}}</a></u></li>
+    </ul>
+</body>
+</html>
