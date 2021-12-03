@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import {RouterModule, Routes} from "@angular/router";
+import {RouterModule} from "@angular/router";
 import { WinnerAcknowledgeComponent } from './winner-acknowledge/winner-acknowledge.component';
 import { SimpleAcknowledgeComponent } from './simple-acknowledge/simple-acknowledge.component';
 import { StudentNotFoundComponent } from './student-not-found/student-not-found.component';
