@@ -1,3 +1,7 @@
+/*
+ * Brandon Mack, Qingyang Dai
+ * */
+
 import { Component, OnInit } from '@angular/core';
 import {Title} from "@angular/platform-browser";
 import {Student} from "../student/student";

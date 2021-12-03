@@ -1,3 +1,7 @@
+/*
+ * Brandon Mack, Qingyang Dai
+ * */
+
 export interface Student {
   studentID: number;
   name: string;
