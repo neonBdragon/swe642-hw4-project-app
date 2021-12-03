@@ -5,6 +5,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Title} from "@angular/platform-browser";
 
+// Handles all the student-not-found page logic
+
 @Component({
   selector: 'app-student-not-found',
   templateUrl: './student-not-found.component.html',

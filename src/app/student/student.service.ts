@@ -8,6 +8,8 @@ import {Observable} from "rxjs";
 import {Student} from "./student";
 import {environment} from "../../environments/environment";
 
+// Handles all the survey page to java backend call logic and javascript page logic
+
 @Injectable({
   providedIn: 'root'
 })

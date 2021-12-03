@@ -9,6 +9,8 @@ import {ActivatedRoute, Router} from "@angular/router";
 import {HttpErrorResponse} from "@angular/common/http";
 import {StudentService} from "../student/student.service";
 
+// Handles all the student-found page logic
+
 @Component({
   selector: 'app-student-found',
   templateUrl: './student-found.component.html',

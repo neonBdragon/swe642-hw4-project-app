@@ -10,6 +10,8 @@ import {Router} from "@angular/router";
 import {HttpErrorResponse} from "@angular/common/http";
 import {NgForm} from "@angular/forms";
 
+// Handles all the survey page logic
+
 @Component({
   selector: 'app-student',
   templateUrl: './student.component.html',

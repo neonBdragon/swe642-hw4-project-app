@@ -9,6 +9,8 @@ import {Student} from "../student/student";
 import {HttpErrorResponse} from "@angular/common/http";
 import {StudentService} from "../student/student.service";
 
+// Handles all the Simple-acknowledgement page logic
+
 @Component({
   selector: 'app-simple-acknowledge',
   templateUrl: './simple-acknowledge.component.html',
